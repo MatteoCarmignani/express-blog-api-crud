@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
   console.log("hai richiesto la rotta di index");
 
-  res.send('Server del mio blog');
+  res.send('Server del mio blog'); 
 });
 
 // impostiamo la rotta di ricerca
